@@ -1,6 +1,6 @@
-PWD c:\Users\Matzi\OneDrive - alumnos.uv.cl\Documentos\Codigos\Control automatico\Latex
+PWD c:\Users\Matzi\OneDrive - alumnos.uv.cl\Documentos\Codigos\Control automatico\Control-automatico\Latex
 INPUT C:\Users\Matzi\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Matzi\OneDrive - alumnos.uv.cl\Documentos\Codigos\Control automatico\Latex\Tarea 1 control.tex
+INPUT c:\Users\Matzi\OneDrive - alumnos.uv.cl\Documentos\Codigos\Control automatico\Control-automatico\Latex\Tarea 1 control.tex
 OUTPUT Tarea 1 control.log
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -232,27 +232,6 @@ INPUT .\figures\Figura 4 ejercicio 5.png
 INPUT .\figures\Figura 4 ejercicio 5.png
 INPUT .\figures\Figura 4 ejercicio 5.png
 INPUT .\figures\Figura 4 ejercicio 5.png
-INPUT .\figures\Figura 5 ejercicio 5.png
-INPUT .\figures\Figura 5 ejercicio 5.png
-INPUT .\figures\Figura 5 ejercicio 5.png
-INPUT .\figures\Figura 5 ejercicio 5.png
-INPUT .\figures\Figura 5 ejercicio 5.png
-INPUT .\figures\Figura 5 ejercicio 5.png
-INPUT .\figures\Figura 5 ejercicio 5.png
-INPUT .\figures\Figura 6 ejercicio 5.png
-INPUT .\figures\Figura 6 ejercicio 5.png
-INPUT .\figures\Figura 6 ejercicio 5.png
-INPUT .\figures\Figura 6 ejercicio 5.png
-INPUT .\figures\Figura 6 ejercicio 5.png
-INPUT .\figures\Figura 6 ejercicio 5.png
-INPUT .\figures\Figura 6 ejercicio 5.png
-INPUT .\figures\Figura 7 ejercicio 6.png
-INPUT .\figures\Figura 7 ejercicio 6.png
-INPUT .\figures\Figura 7 ejercicio 6.png
-INPUT .\figures\Figura 7 ejercicio 6.png
-INPUT .\figures\Figura 7 ejercicio 6.png
-INPUT .\figures\Figura 7 ejercicio 6.png
-INPUT .\figures\Figura 7 ejercicio 6.png
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
@@ -271,6 +250,27 @@ INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\sym
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT .\figures\Figura 5 ejercicio 5.png
+INPUT .\figures\Figura 5 ejercicio 5.png
+INPUT .\figures\Figura 5 ejercicio 5.png
+INPUT .\figures\Figura 5 ejercicio 5.png
+INPUT .\figures\Figura 5 ejercicio 5.png
+INPUT .\figures\Figura 5 ejercicio 5.png
+INPUT .\figures\Figura 5 ejercicio 5.png
+INPUT .\figures\Figura 6 ejercicio 5.png
+INPUT .\figures\Figura 6 ejercicio 5.png
+INPUT .\figures\Figura 6 ejercicio 5.png
+INPUT .\figures\Figura 6 ejercicio 5.png
+INPUT .\figures\Figura 6 ejercicio 5.png
+INPUT .\figures\Figura 6 ejercicio 5.png
+INPUT .\figures\Figura 6 ejercicio 5.png
+INPUT .\figures\Figura 7 ejercicio 6.png
+INPUT .\figures\Figura 7 ejercicio 6.png
+INPUT .\figures\Figura 7 ejercicio 6.png
+INPUT .\figures\Figura 7 ejercicio 6.png
+INPUT .\figures\Figura 7 ejercicio 6.png
+INPUT .\figures\Figura 7 ejercicio 6.png
+INPUT .\figures\Figura 7 ejercicio 6.png
 INPUT .\figures\Figura 8 ejercicio 6.png
 INPUT .\figures\Figura 8 ejercicio 6.png
 INPUT .\figures\Figura 8 ejercicio 6.png
@@ -306,6 +306,8 @@ INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\Matzi\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb

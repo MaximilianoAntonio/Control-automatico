@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.16)  20 SEP 2024 22:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.16)  20 SEP 2024 22:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Latex/Tarea 1 control.tex"
-(c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Latex/Tarea 1 control.tex
+**"c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex"
+(c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
 (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -586,7 +586,7 @@ Package pdftex.def Info: ./figures/Figura 4 ejercicio 5.png  used on input line 
 <./figures/Figura 5 ejercicio 5.png, id=137, 462.528pt x 346.896pt>
 File: ./figures/Figura 5 ejercicio 5.png Graphic file (type png)
 <use ./figures/Figura 5 ejercicio 5.png>
-Package pdftex.def Info: ./figures/Figura 5 ejercicio 5.png  used on input line 536.
+Package pdftex.def Info: ./figures/Figura 5 ejercicio 5.png  used on input line 544.
 (pdftex.def)             Requested size: 330.42041pt x 247.8276pt.
 
 
@@ -597,33 +597,33 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [8]
 
 [9 <./figures/Figura 5 ejercicio 5.png>]
-<./figures/Figura 6 ejercicio 5.png, id=180, 462.528pt x 346.896pt>
+<./figures/Figura 6 ejercicio 5.png, id=183, 462.528pt x 346.896pt>
 File: ./figures/Figura 6 ejercicio 5.png Graphic file (type png)
 <use ./figures/Figura 6 ejercicio 5.png>
-Package pdftex.def Info: ./figures/Figura 6 ejercicio 5.png  used on input line 601.
+Package pdftex.def Info: ./figures/Figura 6 ejercicio 5.png  used on input line 609.
 (pdftex.def)             Requested size: 330.42041pt x 247.8276pt.
 
 
 [10 <./figures/Figura 6 ejercicio 5.png>]
-<./figures/Figura 7 ejercicio 6.png, id=208, 430.60875pt x 161.85469pt>
+<./figures/Figura 7 ejercicio 6.png, id=211, 430.60875pt x 161.85469pt>
 File: ./figures/Figura 7 ejercicio 6.png Graphic file (type png)
 <use ./figures/Figura 7 ejercicio 6.png>
-Package pdftex.def Info: ./figures/Figura 7 ejercicio 6.png  used on input line 614.
+Package pdftex.def Info: ./figures/Figura 7 ejercicio 6.png  used on input line 622.
 (pdftex.def)             Requested size: 377.62642pt x 141.94354pt.
 
 
 [11 <./figures/Figura 7 ejercicio 6.png>]
 
 [12]
-<./figures/Figura 8 ejercicio 6.png, id=241, 462.528pt x 346.896pt>
+<./figures/Figura 8 ejercicio 6.png, id=244, 462.528pt x 346.896pt>
 File: ./figures/Figura 8 ejercicio 6.png Graphic file (type png)
 <use ./figures/Figura 8 ejercicio 6.png>
-Package pdftex.def Info: ./figures/Figura 8 ejercicio 6.png  used on input line 744.
+Package pdftex.def Info: ./figures/Figura 8 ejercicio 6.png  used on input line 752.
 (pdftex.def)             Requested size: 330.42041pt x 247.8276pt.
-<./figures/Figura 9 ejercicio 7.png, id=242, 602.25pt x 509.65407pt>
+<./figures/Figura 9 ejercicio 7.png, id=245, 602.25pt x 509.65407pt>
 File: ./figures/Figura 9 ejercicio 7.png Graphic file (type png)
 <use ./figures/Figura 9 ejercicio 7.png>
-Package pdftex.def Info: ./figures/Figura 9 ejercicio 7.png  used on input line 759.
+Package pdftex.def Info: ./figures/Figura 9 ejercicio 7.png  used on input line 767.
 (pdftex.def)             Requested size: 377.62642pt x 319.57507pt.
 
 
@@ -639,17 +639,17 @@ L3 programming layer <2024-08-30>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 15863 strings out of 473899
- 250220 string characters out of 5726500
+ 15865 strings out of 473899
+ 250375 string characters out of 5726500
  944076 words of memory out of 5000000
  38364 multiletter control sequences out of 15000+600000
  569363 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,14n,93p,6429b,2150s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmitt10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on "Tarea 1 control.pdf" (15 pages, 640964 bytes).
+ 89i,14n,93p,6448b,2150s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmitt10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on "Tarea 1 control.pdf" (15 pages, 645544 bytes).
 PDF statistics:
- 448 PDF objects out of 1000 (max. 8388607)
- 185 named destinations out of 1000 (max. 500000)
+ 456 PDF objects out of 1000 (max. 8388607)
+ 187 named destinations out of 1000 (max. 500000)
  211 words of extra memory for PDF output out of 10000 (max. 10000000)
 
