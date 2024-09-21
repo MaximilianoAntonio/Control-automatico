@@ -479,26 +479,26 @@ Implementación computacional en Python
 En la Figura 3(b), se añade una segunda retroalimentación con ganancia \(k\). Este valor se ajusta para lograr un coeficiente de amortiguamiento deseado de \( \zeta = 0.5 \). La nueva función de transferencia será:
 
 \[
-T(s) = \frac{10}{s^2 + (10k + 1)s + 10}
+	T(s) = \frac{10}{s^2 + (10k + 1)s + 10}
 \]
 
 El polinomio característico de un sistema de segundo orden es:
 
 \[
-s^2 + 2\zeta \omega_n s + \omega_n^2
+	s^2 + 2\zeta \omega_n s + \omega_n^2
 \]
 
 Al comparar ambos polinomios:
 
 \[
-s^2 + (10k + 1)s + 10 = s^2 + 2\zeta \omega_n s + \omega_n^2
+	s^2 + (10k + 1)s + 10 = s^2 + 2\zeta \omega_n s + \omega_n^2
 \]
 
 De esta comparación, obtenemos dos ecuaciones:
 
 \begin{itemize}
-    \item Para el término de \( s \): \( 2\zeta \omega_n = 10k + 1 \)
-    \item Para el término constante: \( \omega_n^2 = 10 \)
+	\item Para el término de \( s \): \( 2\zeta \omega_n = 10k + 1 \)
+	\item Para el término constante: \( \omega_n^2 = 10 \)
 \end{itemize}
 
 \subsubsection{Cálculo de \texorpdfstring{\( \omega_n \)}{omega\_n}}
@@ -506,7 +506,7 @@ De esta comparación, obtenemos dos ecuaciones:
 A partir de \( \omega_n^2 = 10 \), tenemos que:
 
 \[
-\omega_n = \sqrt{10}
+	\omega_n = \sqrt{10}
 \]
 
 \subsubsection{Cálculo de \texorpdfstring{\( k \)}{k}}
@@ -514,19 +514,19 @@ A partir de \( \omega_n^2 = 10 \), tenemos que:
 Usando la ecuación para el coeficiente de amortiguamiento, \( 2\zeta \omega_n = 10k + 1 \), y sustituyendo \( \zeta = 0.5 \) y \( \omega_n = \sqrt{10} \):
 
 \[
-2(0.5)\sqrt{10} = 10k + 1
+	2(0.5)\sqrt{10} = 10k + 1
 \]
 
 Despejando para \( k \):
 
 \[
-k = \frac{2(0.5)\sqrt{10} - 1}{10}
+	k = \frac{2(0.5)\sqrt{10} - 1}{10}
 \]
 
 Finalmente, obtenemos el valor de \( k \):
 
 \[
-k \approx 0.2162
+	k \approx 0.2162
 \]
 
 Implementación computacional en Python
@@ -567,7 +567,7 @@ Implementación computacional en Python
 La función de transferencia del sistema original es:
 
 \[
-T(s) = \frac{10}{s^2 + s + 10}
+	T(s) = \frac{10}{s^2 + s + 10}
 \]
 
 Usando la transformada inversa de Laplace, la respuesta al escalón unitario de este sistema presenta un comportamiento típico de un sistema de segundo orden subamortiguado, con un factor de amortiguamiento \(\zeta \approx 0.158\), lo que implica una respuesta con oscilaciones y una mayor sobreoscilación.
@@ -577,13 +577,13 @@ Usando la transformada inversa de Laplace, la respuesta al escalón unitario de 
 Para el sistema con retroalimentación y el valor ajustado de \( k \), la función de transferencia se convierte en:
 
 \[
-T_{\text{nuevo}}(s) = \frac{10}{s^2 + (10k + 1)s + 10}
+	T_{\text{nuevo}}(s) = \frac{10}{s^2 + (10k + 1)s + 10}
 \]
 
 Sustituyendo \( k = 0.2162 \), obtenemos:
 
 \[
-T_{\text{nuevo}}(s) = \frac{10}{s^2 + (10(0.2162) + 1)s + 10} = \frac{10}{s^2 + 3.162s + 10}
+	T_{\text{nuevo}}(s) = \frac{10}{s^2 + (10(0.2162) + 1)s + 10} = \frac{10}{s^2 + 3.162s + 10}
 \]
 
 Este sistema tiene un factor de amortiguamiento de \( \zeta = 0.5 \), lo que implica una mayor estabilidad y una reducción significativa en las oscilaciones en la respuesta al escalón unitario.
@@ -651,13 +651,7 @@ Este código genera la respuesta al escalón unitario tanto para el sistema orig
 La función de transferencia del sistema en la Figura 7 es:
 
 \[
-	G(s) = \frac{16}{s + 0.8}
-\]
-
-La segunda retroalimentación proporcional tiene una ganancia \(k\). Para encontrar la función de transferencia total en lazo cerrado, debemos considerar ambas retroalimentaciones. La ecuación característica del sistema en lazo cerrado es:
-
-\[
-	T(s) = \frac{G(s)}{1 + G(s) \cdot k \cdot \frac{1}{s}} = \frac{\frac{16}{s + 0.8}}{1 + \frac{16k}{s(s + 0.8)}} = \frac{16}{s(s + 0.8) + 16k}
+G(s) = \frac{16}{s^2 + (0.8 + 16k)s + 16}
 \]
 
 \subsection{Determinación del valor de \texorpdfstring{\(k\)}{k}}
@@ -677,41 +671,38 @@ Donde:
 La ecuación característica del sistema será:
 
 \[
-	s^2 + 0.8s + 16k = 0
+	s^2 + (0.8 + 16k)s + 16 = 0
 \]
 
 El factor de amortiguamiento está relacionado con la frecuencia natural y la constante del término lineal en \(s\) por la fórmula:
 
 \[
-	2\zeta \omega_n = 0.8
+	2\zeta \omega_n = 0.8 + 16k
 \]
 
-Sustituyendo \(\zeta = 0.5\):
+Sustituyendo \(\zeta = 0.5\) y \(\omega_n = 4\):
 
 \[
-	2(0.5) \omega_n = 0.8 \quad \Rightarrow \quad \omega_n = \frac{0.8}{1} = 0.8
+	2(0.5)(4) = 0.8 + 16k \quad \Rightarrow \quad 4 = 0.8 + 16k
 \]
-
-La frecuencia natural \(\omega_n\) también está relacionada con el término constante en la ecuación característica:
-
 \[
-	\omega_n^2 = 16k
-\]
-
-Sustituyendo \(\omega_n = 0.8\):
-
-\[
-	0.8^2 = 16k \quad \Rightarrow \quad k = \frac{0.64}{16} = 0.04
+	16k = 3.2 \quad \Rightarrow \quad k = \frac{3.2}{16} = 0.2
 \]
 
 \subsection{Cálculo de parámetros de la respuesta al escalón unitario}
 
 \subsubsection{Tiempo de levantamiento \texorpdfstring{\(t_r\)}{tr}}
 
+Frecuencia natural amortiguada \(\omega_d\):
+
+\[
+\omega_d = \omega_n \sqrt{1 - \zeta^2} = 4 \sqrt{1 - (0.5)^2} = 4 \sqrt{0.75} = 4 \times 0.866 = 3.464
+\]
+
 El tiempo de levantamiento es el tiempo que tarda la salida en pasar del 10\% al 90\% del valor final. Para un sistema subamortiguado con \(\zeta = 0.5\), una aproximación es:
 
 \[
-	t_r \approx \frac{1.8}{\omega_n} = \frac{1.8}{0.8} = 2.25 \, \text{segundos}
+	t_r \approx \frac{\pi - \arccos(\zeta)}{\omega_d} = \frac{\pi - \frac{\pi}{3}}{3.464} \approx 0.604 \, \text{segundos}
 \]
 
 \subsubsection{Tiempo peak \texorpdfstring{\(t_p\)}{tp}}
@@ -719,7 +710,7 @@ El tiempo de levantamiento es el tiempo que tarda la salida en pasar del 10\% al
 El tiempo peak es el tiempo que tarda la respuesta en alcanzar su primer máximo. Para un sistema de segundo orden:
 
 \[
-	t_p = \frac{\pi}{\omega_n \sqrt{1 - \zeta^2}} = \frac{\pi}{0.8 \sqrt{1 - 0.5^2}} = \frac{\pi}{0.8 \times 0.866} \approx 4.55 \, \text{segundos}
+	t_p = \frac{\pi}{\omega_d} = \frac{\pi}{3.464} \approx 0.907 \, \text{segundos}
 \]
 
 \subsubsection{Sobrepaso máximo \texorpdfstring{\(M_p\)}{Mp}}
@@ -735,46 +726,45 @@ El sobrepaso máximo se puede calcular con la siguiente fórmula para un sistema
 El tiempo de asentamiento es el tiempo que tarda la respuesta en quedarse dentro de un 2\% del valor final. Para un sistema de segundo orden, el tiempo de asentamiento se aproxima como:
 
 \[
-	t_s \approx \frac{4}{\zeta \omega_n} = \frac{4}{0.5 \times 0.8} = 10 \, \text{segundos}
+	t_s \approx \frac{4}{\zeta \omega_n} = \frac{4}{0.5 \times 4} = 2 \, \text{segundos}
 \]
 
 \subsection{Simulación computacional}
 
 Implementación computacional en Python
 \begin{lstlisting}[language=Python]
-	import control as ctrl
-	import matplotlib.pyplot as plt
-	
-	# Parametros del sistema
-	k = 0.04  # Valor de k determinado
-	num = [16]
-	den = [1, 0.8, 16*k]
-	
-	# Crear el sistema en lazo cerrado
-	sys = ctrl.TransferFunction(num, den)
-	
-	# Simulacion de la respuesta al escalon
-	t, y = ctrl.step_response(sys)
-	
-	# Graficar la respuesta
-	
-	plt.plot(t, y, label='Respuesta al escalon unitario')
-	plt.title('Respuesta al escalon unitario (k = 0.04)')
-	plt.xlabel('Tiempo (s)')
-	plt.ylabel('Respuesta')
-	plt.axvline(x=2.25, color='red', linestyle='--', label='Tiempo de levantamiento (Tr) 2.25 [s]')
-	plt.axvline(x=4.55, color='green', linestyle='--', label='Tiempo peak (Tp) 4.55 [s]')
-	plt.axvline(x=10, color='purple', linestyle='--', label='Tiempo de asentamiento (Ts) 10 [s]')
-	plt.plot([], [], ' ', label='Sobrepaso 16.3%')
-	plt.grid()
-	plt.legend() 
-	plt.show()
+import control as ctrl
+import matplotlib.pyplot as plt
+
+# Parametros del sistema
+k = 0.2  # Valor de k determinado
+num = [16]
+den = [1, 0.8 + 16*k, 16]
+
+# Crear el sistema en lazo cerrado
+sys = ctrl.TransferFunction(num, den)
+
+# Simulacion de la respuesta al escalon
+t, y = ctrl.step_response(sys)
+
+# Graficar la respuesta
+plt.plot(t, y, label='Respuesta al escalon unitario')
+plt.title('Respuesta al escalon unitario (k = 0.2)')
+plt.xlabel('Tiempo (s)')
+plt.ylabel('Respuesta')
+plt.axvline(x=0.604, color='red', linestyle='--', label='Tiempo de levantamiento (Tr) 0.604 [s]')
+plt.axvline(x=0.907, color='green', linestyle='--', label='Tiempo peak (Tp) 0.907 [s]')
+plt.axvline(x=2, color='purple', linestyle='--', label='Tiempo de asentamiento (Ts) 2 [s]')
+plt.plot([], [], ' ', label='Sobrepaso 16.3%')
+plt.grid()
+plt.legend() 
+plt.show()
 \end{lstlisting}
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\textwidth]{./figures/Figura 8 ejercicio 6.png}
-	\caption{Respuesta al escalón unitario del sistema con \(k = 0.04\)}
+	\caption{Respuesta al escalón unitario del sistema con \(k = 0.2\)}
 \end{figure}
 
 
