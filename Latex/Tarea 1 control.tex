@@ -476,45 +476,58 @@ Implementación computacional en Python
 
 \subsection{Sistema con nueva retroalimentación (Figura 3b)}
 
-En la Figura 3(b), se añade una segunda retroalimentación con ganancia \(K_h\). Esto modifica la ecuación característica del sistema.
-
-La nueva función de transferencia con \(K_h\) será:
+En la Figura 3(b), se añade una segunda retroalimentación con ganancia \(k\). Este valor se ajusta para lograr un coeficiente de amortiguamiento deseado de \( \zeta = 0.5 \). La nueva función de transferencia será:
 
 \[
-	T_{\text{nuevo}}(s) = \frac{10}{s(s+1) + K_h}
+T(s) = \frac{10}{s^2 + (10k + 1)s + 10}
 \]
 
-El nuevo polinomio característico del sistema en lazo cerrado es:
+El polinomio característico de un sistema de segundo orden es:
 
 \[
-	s^2 + s + 10K_h = 0
+s^2 + 2\zeta \omega_n s + \omega_n^2
 \]
 
-Comparando el polinomio característico del sistema con la forma estándar:
+Al comparar ambos polinomios:
+
 \[
-	s^2 + s + 10K_h = s^2 + 2\zeta \omega_n s + \omega_n^2
+s^2 + (10k + 1)s + 10 = s^2 + 2\zeta \omega_n s + \omega_n^2
 \]
+
 De esta comparación, obtenemos dos ecuaciones:
+
 \begin{itemize}
-	\item Para el término de \( s \): \( 2\zeta \omega_n = 1 \)
-	\item Para el término constante: \( \omega_n^2 = 10K_h \)
+    \item Para el término de \( s \): \( 2\zeta \omega_n = 10k + 1 \)
+    \item Para el término constante: \( \omega_n^2 = 10 \)
 \end{itemize}
 
-\subsection*{Cálculo de \( \omega_n \)}
-Usamos la primera ecuación \( 2\zeta \omega_n = 1 \) para despejar \( \omega_n \):
+\subsubsection{Cálculo de \texorpdfstring{\( \omega_n \)}{omega\_n}}
+
+A partir de \( \omega_n^2 = 10 \), tenemos que:
+
 \[
-	\omega_n = \frac{1}{2\zeta} = \frac{1}{2(0.5)} = 1
+\omega_n = \sqrt{10}
 \]
 
-\subsection*{Cálculo de \( K_h \)}
-Sustituimos el valor de \( \omega_n^2 = 1^2 = 1 \) en la segunda ecuación \( \omega_n^2 = 10K_h \):
+\subsubsection{Cálculo de \texorpdfstring{\( k \)}{k}}
+
+Usando la ecuación para el coeficiente de amortiguamiento, \( 2\zeta \omega_n = 10k + 1 \), y sustituyendo \( \zeta = 0.5 \) y \( \omega_n = \sqrt{10} \):
+
 \[
-	1 = 10K_h
-\]
-\[
-	K_h = \frac{1}{10} = 0.1
+2(0.5)\sqrt{10} = 10k + 1
 \]
 
+Despejando para \( k \):
+
+\[
+k = \frac{2(0.5)\sqrt{10} - 1}{10}
+\]
+
+Finalmente, obtenemos el valor de \( k \):
+
+\[
+k \approx 0.2162
+\]
 
 Implementación computacional en Python
 \begin{lstlisting}[language=Python]
@@ -522,9 +535,9 @@ Implementación computacional en Python
 	import matplotlib.pyplot as plt
 
 	# Sistema con nueva retroalimentacion
-	K_h = 0.1
+	k = 0.2162
 	num_new = [10]
-	den_new = [1, 1, 10*K_h]
+	den_new = [1, (10*k+1), 10]
 	sys_new = ctrl.TransferFunction(num_new, den_new)
 
 	t2, y_new = ctrl.step_response(sys_new)
@@ -554,55 +567,66 @@ Implementación computacional en Python
 La función de transferencia del sistema original es:
 
 \[
-	T(s) = \frac{10}{s^2 + s + 10}
+T(s) = \frac{10}{s^2 + s + 10}
 \]
 
-Usando la transformada inversa de Laplace para la respuesta al escalón unitario, obtenemos una respuesta típica de un sistema de segundo orden subamortiguado, con un factor de amortiguamiento \(\zeta = 0.158\).
+Usando la transformada inversa de Laplace, la respuesta al escalón unitario de este sistema presenta un comportamiento típico de un sistema de segundo orden subamortiguado, con un factor de amortiguamiento \(\zeta \approx 0.158\), lo que implica una respuesta con oscilaciones y una mayor sobreoscilación.
 
-\subsection*{Sistema con retroalimentación}
+\subsection*{Sistema con retroalimentación ajustada}
 
-Para el sistema con la segunda retroalimentación, la función de transferencia se convierte en:
+Para el sistema con retroalimentación y el valor ajustado de \( k \), la función de transferencia se convierte en:
 
 \[
-	T_{\text{nuevo}}(s) = \frac{10}{s^2 + s + 1}
+T_{\text{nuevo}}(s) = \frac{10}{s^2 + (10k + 1)s + 10}
 \]
 
-Este sistema tendrá una mejor estabilidad debido a su mayor factor de amortiguamiento (\(\zeta = 0.5\)), lo que reducirá las oscilaciones en la respuesta al escalón.
+Sustituyendo \( k = 0.2162 \), obtenemos:
+
+\[
+T_{\text{nuevo}}(s) = \frac{10}{s^2 + (10(0.2162) + 1)s + 10} = \frac{10}{s^2 + 3.162s + 10}
+\]
+
+Este sistema tiene un factor de amortiguamiento de \( \zeta = 0.5 \), lo que implica una mayor estabilidad y una reducción significativa en las oscilaciones en la respuesta al escalón unitario.
 
 \subsection*{Análisis}
 
-El nuevo sistema con \(K_h = 0.1\) tendrá una respuesta al escalón más rápida y con menos sobreoscilación en comparación con el sistema original, que tiene un amortiguamiento mucho menor. La mejora en la estabilidad es evidente al aumentar el factor de amortiguamiento de \(0.158\) a \(0.5\).
+El sistema con la ganancia \( k \approx 0.2162 \) tiene una respuesta al escalón más rápida y con menos sobreoscilación en comparación con el sistema original, que tiene un amortiguamiento mucho menor. Esta mejora es notable al aumentar el factor de amortiguamiento de \( 0.158 \) a \( 0.5 \), lo que también reduce el tiempo de asentamiento.
 
-Implementación computacional en Python
+\subsection*{Implementación computacional en Python}
+
+El siguiente código en Python permite comparar la respuesta al escalón unitario de ambos sistemas, el original y el sistema con la ganancia ajustada \( k \):
+
 \begin{lstlisting}[language=Python]
-	import control as ctrl
-	import matplotlib.pyplot as plt
-	
-	# Sistema original
-	num_orig = [10]
-	den_orig = [1, 1, 10]
-	sys_orig = ctrl.TransferFunction(num_orig, den_orig)
-	
-	# Sistema con nueva retroalimentacion
-	K_h = 0.1
-	num_new = [10]
-	den_new = [1, 1, 10*K_h]
-	sys_new = ctrl.TransferFunction(num_new, den_new)
-	
-	# Simulacion de la respuesta al escalon
-	t, y_orig = ctrl.step_response(sys_orig)
-	t2, y_new = ctrl.step_response(sys_new)
+import control as ctrl
+import matplotlib.pyplot as plt
 
-	# Graficar resultados
-	plt.plot(t, y_orig, color='b', label='Sistema Original')
-	plt.plot(t2, y_new, color='r', label='Sistema con nueva retroalimentacion')
-	plt.title('Respuesta al escalon unitario')
-	plt.xlabel('Tiempo (s)')
-	plt.ylabel('Respuesta')
-	plt.legend()
-	plt.grid()
-	plt.show()
+# Sistema original
+num_orig = [10]
+den_orig = [1, 1, 10]
+sys_orig = ctrl.TransferFunction(num_orig, den_orig)
+
+# Sistema con retroalimentacion ajustada
+k = 0.2162
+num_new = [10]
+den_new = [1, (10*k + 1), 10]
+sys_new = ctrl.TransferFunction(num_new, den_new)
+
+# Simulacion de la respuesta al escalon
+t, y_orig = ctrl.step_response(sys_orig)
+t2, y_new = ctrl.step_response(sys_new)
+
+# Graficar resultados
+plt.plot(t, y_orig, color='b', label='Sistema Original')
+plt.plot(t2, y_new, color='r', label='Sistema con k ajustado')
+plt.title('Respuesta al escalon unitario')
+plt.xlabel('Tiempo (s)')
+plt.ylabel('Respuesta')
+plt.legend()
+plt.grid()
+plt.show()
 \end{lstlisting}
+
+Este código genera la respuesta al escalón unitario tanto para el sistema original como para el sistema con la ganancia \( k \) ajustada, permitiendo comparar el comportamiento de ambos.
 
 \begin{figure}[h]
 	\centering

@@ -7,9 +7,9 @@ den_orig = [1, 1, 10]
 sys_orig = ctrl.TransferFunction(num_orig, den_orig)
 
 # Sistema con nueva retroalimentación
-K_h = 2.16
+k = 0.2162
 num_new = [10]
-den_new = [1, 1, 10*K_h]
+den_new = [1, (10*k+1), 10]
 sys_new = ctrl.TransferFunction(num_new, den_new)
 
 # Simulación de la respuesta al escalón
