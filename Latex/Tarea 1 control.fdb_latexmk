@@ -1,11 +1,11 @@
 # Fdb version 4
-["makeindex Tarea 1 control.idx"] 1726954816.01012 "Tarea 1 control.idx" "Tarea 1 control.ind" "Tarea 1 control" 1726955299.50435 0
-  "Tarea 1 control.idx" 1726955299 32 a03eba179cfb060bc641af34e230b4cb "pdflatex"
+["makeindex Tarea 1 control.idx"] 1726954816.01012 "Tarea 1 control.idx" "Tarea 1 control.ind" "Tarea 1 control" 1726955360.67581 0
+  "Tarea 1 control.idx" 1726955360 32 a03eba179cfb060bc641af34e230b4cb "pdflatex"
   (generated)
   "Tarea 1 control.ilg"
   "Tarea 1 control.ind"
   (rewritten before read)
-["pdflatex"] 1726955297.9738 "c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex" "Tarea 1 control.pdf" "Tarea 1 control" 1726955299.50475 0
+["pdflatex"] 1726955359.01581 "c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex" "Tarea 1 control.pdf" "Tarea 1 control" 1726955360.67629 0
   "C:/Users/Matzi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1726875212 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Matzi/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1726538705 11948197 0e174b8c3f842d2283b948a2995c8b68 ""
   "C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -128,10 +128,10 @@
   "C:/Users/Matzi/AppData/Local/Programs/MiKTeX/tex/latex/tools/enumerate.sty" 1718356376 3468 ad69b54642e68f9fdf39ec1a16dd7341 ""
   "C:/Users/Matzi/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1718356376 32621 00e86c03dbf6e71d7ea7ebac2bd4fcaf ""
   "C:/Users/Matzi/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "Tarea 1 control.aux" 1726955299 34432 1a947660169bd42f24992f3ad4195537 "pdflatex"
+  "Tarea 1 control.aux" 1726955360 34432 1a947660169bd42f24992f3ad4195537 "pdflatex"
   "Tarea 1 control.ind" 1726954816 63 6a8b4e671d6ed8a9c49c583e50818533 "makeindex Tarea 1 control.idx"
-  "Tarea 1 control.tex" 1726955297 22907 7366e9daad4c01146268f275dd7dc7d0 ""
-  "c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex" 1726955297 22907 7366e9daad4c01146268f275dd7dc7d0 ""
+  "Tarea 1 control.tex" 1726955358 22906 7cb16ecba5d1a9167bf19a46a9355a1d ""
+  "c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex" 1726955358 22906 7cb16ecba5d1a9167bf19a46a9355a1d ""
   "figures/Figura 1 ejercicio 3.png" 1726875127 49097 319f06f94330dcbfa93e862ef8cb112f ""
   "figures/Figura 2 ejercicio 4.png" 1726877500 23841 c8975172fe52e5e4332a4d83a0361e2d ""
   "figures/Figura 3 ejercicio 5.png" 1726878092 38834 f597c9f59bd8dd96f7e3b12b56829abe ""
