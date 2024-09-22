@@ -776,10 +776,135 @@ Este código genera la respuesta al escalón unitario y te permite analizar visu
   Compare las respuestas a un escalón unitario e impulso unitario de los tres sistemas (computacionalmente, y ojalá en una misma gráfica). ¿Qué sistema es mejor con respecto a la velocidad
   de respuesta, y sobre el sobrepaso (elongación) máxima, en la respuesta al escalón? }
 
+
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.8\textwidth]{./figures/Figura 9 ejercicio 7.png}
 	\caption{Sistemas I, II y III}
 \end{figure}
+
+\newpage
+
+\subsection{Funciones de transferencia de los sistemas}
+
+\begin{equation}
+	\text{a) } \frac{5}{s(5s+1)} = \frac{\frac{5}{s(5s+1)}}{1 + \frac{s}{s(5s+1)}} = \frac{5}{s(5s+1) + s}
+  \end{equation}
+  
+  \begin{equation}
+	\text{b) } \frac{5(1+0.8s)}{s(5s+1)} = \frac{\frac{5(1+0.8s)}{s(5s+1)}}{1 + \frac{5(1+0.8s)}{s(5s+1)}} = \frac{5(1+0.8s)}{s(5s+1) + 5(1+0.8s)}
+  \end{equation}
+  
+  \begin{equation}
+	\text{c) } \frac{5}{5s+1} = \frac{\frac{5}{5s+1}}{1 + \frac{4}{5s+1}} = \frac{1}{s+1} = \frac{\frac{1}{s+1}}{1 + \frac{1}{s^2+s}} = \frac{1}{s^2 + s + 1}
+  \end{equation}
+
+
+Implementación computacional en Python
+\begin{lstlisting}[language=Python]
+	import numpy as np
+	import matplotlib.pyplot as plt
+	from scipy.signal import TransferFunction, step, impulse
+	
+	# Definir las funciones de transferencia usando scipy.signal.TransferFunction
+	G_a = TransferFunction([5], [5, 1, 5])  # Sistema I: Control de posicion
+	G_b = TransferFunction([4, 5], [5, 5, 5])  # Sistema II: Control de posicion con control PD
+	G_c = TransferFunction([1], [1, 1, 1])  # Sistema III: Control de posicion con retroalimentacion de velocidad
+	
+	# Determinar el tiempo maximo de simulacion basado en las respuestas al escalon
+	_, step_response_a = step(G_a)
+	_, step_response_b = step(G_b)
+	_, step_response_c = step(G_c)
+	
+	# Determinar el tiempo maximo de simulacion
+	t_max = max(len(step_response_a), len(step_response_b), len(step_response_c))
+	
+	# Crear un vector de tiempo adecuado
+	t = np.linspace(0, t_max, 1000)
+	
+	# Simulacion de la respuesta a un escalon unitario
+	t_out_a, step_response_a = step(G_a, T=t)
+	t_out_b, step_response_b = step(G_b, T=t)
+	t_out_c, step_response_c = step(G_c, T=t)
+	
+	# Simulacion de la respuesta a un impulso unitario
+	t_out_a_imp, impulse_response_a = impulse(G_a, T=t)
+	t_out_b_imp, impulse_response_b = impulse(G_b, T=t)
+	t_out_c_imp, impulse_response_c = impulse(G_c, T=t)
+	
+	# Graficar las respuestas al escalon
+	plt.figure(figsize=(12, 8))
+	
+	plt.subplot(2, 1, 1)
+	plt.plot(t_out_a, step_response_a, label='Sistema I - Escalon')
+	plt.plot(t_out_b, step_response_b, label='Sistema II - Escalon')
+	plt.plot(t_out_c, step_response_c, label='Sistema III - Escalon')
+	plt.title('Respuesta al Escalon Unitario')
+	plt.xlabel('Tiempo (s)')
+	plt.ylabel('Amplitud')
+	plt.legend()
+	plt.grid()
+	
+	# Graficar las respuestas al impulso
+	plt.subplot(2, 1, 2)
+	plt.plot(t_out_a_imp, impulse_response_a, label='Sistema I - Impulso')
+	plt.plot(t_out_b_imp, impulse_response_b, label='Sistema II - Impulso')
+	plt.plot(t_out_c_imp, impulse_response_c, label='Sistema III - Impulso')
+	plt.title('Respuesta al Impulso Unitario')
+	plt.xlabel('Tiempo (s)')
+	plt.ylabel('Amplitud')
+	plt.legend()
+	plt.grid()
+	
+	plt.tight_layout()
+	plt.show()
+\end{lstlisting}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{./figures/Figura 10 ejercicio 7.png}
+	\caption{Respuestas al escalón unitario de los sistemas I, II y III}
+\end{figure}
+
+\newpage
+
+\subsection{Análisis de las respuestas al escalón e impulso unitario}
+
+A partir de los gráficos de las respuestas al \textbf{escalón unitario} y al \textbf{impulso unitario} de los tres sistemas, se puede realizar el siguiente análisis:
+
+\subsection{Respuesta al escalón unitario}
+
+
+
+\begin{itemize}
+    \item \textbf{Sistema I (azul)}: 
+    \begin{itemize}
+        \item Tiene el \textbf{mayor sobrepaso} y un comportamiento oscilatorio prolongado, lo que indica una baja amortiguación y una respuesta menos controlada.
+        \item Su \textbf{velocidad de respuesta} es menor que la de los otros dos sistemas, ya que tarda más en estabilizarse.
+    \end{itemize}
+    \item \textbf{Sistema II (naranja)}: 
+    \begin{itemize}
+        \item Presenta un \textbf{sobrepaso menor} que el Sistema I y una mejor estabilidad.
+        \item Su \textbf{velocidad de respuesta} es más rápida que la del Sistema I, estabilizándose con menos oscilaciones.
+    \end{itemize}
+    \item \textbf{Sistema III (verde)}: 
+    \begin{itemize}
+        \item Este sistema tiene \textbf{prácticamente nulo sobrepaso} y se estabiliza rápidamente sin oscilaciones significativas.
+        \item Es el \textbf{más estable} de los tres sistemas, pero su \textbf{velocidad de respuesta} es ligeramente más lenta que la del Sistema II debido a su fuerte amortiguación.
+    \end{itemize}
+\end{itemize}
+
+\subsection{Respuesta al impulso unitario}
+
+Los patrones observados son similares a los de la respuesta al escalón. El \textbf{Sistema I} tiene el mayor sobrepaso y la mayor oscilación, mientras que el \textbf{Sistema III} es el más estable, con una rápida estabilización.
+
+\subsection{Conclusión}
+
+\begin{itemize}
+    \item \textbf{Velocidad de respuesta}: El \textbf{Sistema II} parece tener la mejor velocidad de respuesta, ya que alcanza su estado estable más rápidamente que los demás con un control razonable del sobrepaso.
+    \item \textbf{Sobrepaso máximo}: El \textbf{Sistema III} es el que tiene el menor sobrepaso y es el más estable en ambas respuestas (escalón e impulso).
+\end{itemize}
+
+Por lo tanto, si se busca una respuesta más rápida, el \textbf{Sistema II} es el más adecuado. Sin embargo, si la prioridad es minimizar el sobrepaso y maximizar la estabilidad, el \textbf{Sistema III} es el más recomendable.
 
 \end{document}
