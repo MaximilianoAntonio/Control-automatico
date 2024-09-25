@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.16)  21 SEP 2024 22:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.16)  25 SEP 2024 19:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -402,79 +402,272 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 ) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/tools\enumerate.sty
 Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
 \@enLab=\toks33
+) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
+\pgfutil@everybye=\toks34
+\pgfutil@tempdima=\dimen180
+\pgfutil@tempdimb=\dimen181
+) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
+\pgfutil@abb=\box104
+) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks35
+\pgfkeys@temptoks=\toks36
+ (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks37
+))
+\pgf@x=\dimen182
+\pgf@y=\dimen183
+\pgf@xa=\dimen184
+\pgf@ya=\dimen185
+\pgf@xb=\dimen186
+\pgf@yb=\dimen187
+\pgf@xc=\dimen188
+\pgf@yc=\dimen189
+\pgf@xd=\dimen190
+\pgf@yd=\dimen191
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count324
+\c@pgf@countb=\count325
+\c@pgf@countc=\count326
+\c@pgf@countd=\count327
+\t@pgf@toka=\toks38
+\t@pgf@tokb=\toks39
+\t@pgf@tokc=\toks40
+\pgf@sys@id@count=\count328
+ (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
-\c@thm=\count324
-\c@prob=\count325
+Driver file for pgf: pgfsys-pdftex.def
+ (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+))) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count329
+\pgfsyssoftpath@bigbuffer@items=\count330
+) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+ (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
+\pgfmath@dimen=\dimen192
+\pgfmath@count=\count331
+\pgfmath@box=\box105
+\pgfmath@toks=\toks41
+\pgfmath@stack@operand=\toks42
+\pgfmath@stack@operation=\toks43
+) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count332
+)) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen193
+\pgf@picmaxx=\dimen194
+\pgf@picminy=\dimen195
+\pgf@picmaxy=\dimen196
+\pgf@pathminx=\dimen197
+\pgf@pathmaxx=\dimen198
+\pgf@pathminy=\dimen199
+\pgf@pathmaxy=\dimen256
+\pgf@xx=\dimen257
+\pgf@xy=\dimen258
+\pgf@yx=\dimen259
+\pgf@yy=\dimen260
+\pgf@zx=\dimen261
+\pgf@zy=\dimen262
+) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen263
+\pgf@path@lasty=\dimen264
+) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen265
+\pgf@shorten@start@additional=\dimen266
+) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box106
+\pgf@hbox=\box107
+\pgf@layerbox@main=\box108
+\pgf@picture@serial@count=\count333
+) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen267
+) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen268
+\pgf@pt@y=\dimen269
+\pgf@pt@temp=\dimen270
+) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen271
+) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen272
+\pgf@sys@shading@range@num=\count334
+\pgf@shadingcount=\count335
+) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box109
+) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box110
+) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen273
+\pgf@nodesepend=\dimen274
+) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen275
+\pgffor@skip=\dimen276
+\pgffor@stack=\toks44
+\pgffor@toks=\toks45
+)) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count336
+\pgfplotmarksize=\dimen277
+)
+\tikz@lastx=\dimen278
+\tikz@lasty=\dimen279
+\tikz@lastxsaved=\dimen280
+\tikz@lastysaved=\dimen281
+\tikz@lastmovetox=\dimen282
+\tikz@lastmovetoy=\dimen283
+\tikzleveldistance=\dimen284
+\tikzsiblingdistance=\dimen285
+\tikz@figbox=\box111
+\tikz@figbox@bg=\box112
+\tikz@tempbox=\box113
+\tikz@tempbox@bg=\box114
+\tikztreelevel=\count337
+\tikznumberofchildren=\count338
+\tikznumberofcurrentchild=\count339
+\tikz@fig@count=\count340
+ (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count341
+\pgfmatrixcurrentcolumn=\count342
+\pgf@matrix@numberofcolumns=\count343
+)
+\tikz@expandcount=\count344
+ (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+\c@thm=\count345
+\c@prob=\count346
  (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count326
-\Gm@cntv=\count327
-\c@Gm@tempcnt=\count328
-\Gm@bindingoffset=\dimen180
-\Gm@wd@mp=\dimen181
-\Gm@odd@mp=\dimen182
-\Gm@even@mp=\dimen183
-\Gm@layoutwidth=\dimen184
-\Gm@layoutheight=\dimen185
-\Gm@layouthoffset=\dimen186
-\Gm@layoutvoffset=\dimen187
-\Gm@dimlist=\toks34
+\Gm@cnth=\count347
+\Gm@cntv=\count348
+\c@Gm@tempcnt=\count349
+\Gm@bindingoffset=\dimen286
+\Gm@wd@mp=\dimen287
+\Gm@odd@mp=\dimen288
+\Gm@even@mp=\dimen289
+\Gm@layoutwidth=\dimen290
+\Gm@layoutheight=\dimen291
+\Gm@layouthoffset=\dimen292
+\Gm@layoutvoffset=\dimen293
+\Gm@dimlist=\toks46
  (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/base\makeidx.sty
 Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
 )
-\@indexfile=\write3
-\openout3 = `"Tarea 1 control.idx"'.
+\@indexfile=\write4
+\openout4 = `"Tarea 1 control.idx"'.
 
 
 Writing index file "Tarea 1 control".idx
 (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count329
-\l__pdf_internal_box=\box104
-) (Tarea 1 control.aux
-LaTeX Info: Redefining \. on input line 12.
-LaTeX Info: Redefining \% on input line 12.
+\l__color_backend_stack_int=\count350
+\l__pdf_internal_box=\box115
 )
+No file "Tarea 1 control".aux.
 \openout1 = `"Tarea 1 control.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-Package hyperref Info: Link coloring OFF on input line 84.
-LaTeX Info: Redefining \. on input line 84.
-LaTeX Info: Redefining \% on input line 84.
-\c@lstlisting=\count330
- (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+Package hyperref Info: Link coloring OFF on input line 91.
+LaTeX Info: Redefining \. on input line 91.
+LaTeX Info: Redefining \% on input line 91.
+\c@lstlisting=\count351
+(C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count331
-\scratchdimen=\dimen188
-\scratchbox=\box105
-\nofMPsegments=\count332
-\nofMParguments=\count333
-\everyMPshowfont=\toks35
-\MPscratchCnt=\count334
-\MPscratchDim=\dimen189
-\MPnumerator=\count335
-\makeMPintoPDFobject=\count336
-\everyMPtoPDFconversion=\toks36
+\scratchcounter=\count352
+\scratchdimen=\dimen294
+\scratchbox=\box116
+\nofMPsegments=\count353
+\nofMParguments=\count354
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count355
+\MPscratchDim=\dimen295
+\MPnumerator=\count356
+\makeMPintoPDFobject=\count357
+\everyMPtoPDFconversion=\toks48
 ) (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -520,16 +713,16 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<./figures/logo.png, id=3, 1206.5075pt x 563.10374pt>
+<./figures/logo.png, id=6, 1206.5075pt x 563.10374pt>
 File: ./figures/logo.png Graphic file (type png)
 <use ./figures/logo.png>
-Package pdftex.def Info: ./figures/logo.png  used on input line 94.
+Package pdftex.def Info: ./figures/logo.png  used on input line 101.
 (pdftex.def)             Requested size: 102.42921pt x 47.79874pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 95.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 102.
 (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 95.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 102.
  (C:\Users\Matzi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -540,14 +733,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: lstlang1.sty 2024/05/25 1.10b listings language file
 )
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 167.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 174.
 
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.186     coefficients 
+l.193     coefficients 
                        = solve(equations, [A, B, C]) [1]
 
 [2]
@@ -555,38 +748,1134 @@ l.186     coefficients
 [3]
 
 [4]
-<./figures/Figura 1 ejercicio 3.png, id=87, 619.56468pt x 220.57407pt>
+<./figures/Figura 1 ejercicio 3.png, id=90, 619.56468pt x 220.57407pt>
 File: ./figures/Figura 1 ejercicio 3.png Graphic file (type png)
 <use ./figures/Figura 1 ejercicio 3.png>
-Package pdftex.def Info: ./figures/Figura 1 ejercicio 3.png  used on input line 385.
+Package pdftex.def Info: ./figures/Figura 1 ejercicio 3.png  used on input line 392.
 (pdftex.def)             Requested size: 424.82523pt x 151.24377pt.
-<./figures/Figura 2 ejercicio 4.png, id=88, 326.72063pt x 147.55125pt>
+<./figures/Figura 2 ejercicio 4.png, id=91, 326.72063pt x 147.55125pt>
 File: ./figures/Figura 2 ejercicio 4.png Graphic file (type png)
 <use ./figures/Figura 2 ejercicio 4.png>
-Package pdftex.def Info: ./figures/Figura 2 ejercicio 4.png  used on input line 394.
+Package pdftex.def Info: ./figures/Figura 2 ejercicio 4.png  used on input line 400.
 (pdftex.def)             Requested size: 283.22162pt x 127.90474pt.
-<./figures/Figura 3 ejercicio 5.png, id=89, 496.85625pt x 372.64218pt>
-File: ./figures/Figura 3 ejercicio 5.png Graphic file (type png)
-<use ./figures/Figura 3 ejercicio 5.png>
-Package pdftex.def Info: ./figures/Figura 3 ejercicio 5.png  used on input line 409.
-(pdftex.def)             Requested size: 377.62642pt x 283.22237pt.
 
 
 [5 <./figures/Figura 1 ejercicio 3.png> <./figures/Figura 2 ejercicio 4.png>]
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:453: Argument of \language@active@arg> has an extra }.
+<inserted text> 
+                \par 
+l.453 ...icture}[auto, node distance=2cm, >=latex]
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
 
-[6 <./figures/Figura 3 ejercicio 5.png>]
-<./figures/Figura 4 ejercicio 5.png, id=110, 462.528pt x 346.896pt>
+Runaway argument?
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:453: Paragraph ended before \language@active@arg> was complete.
+<to be read again> 
+                   \par 
+l.453 ...icture}[auto, node distance=2cm, >=latex]
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Runaway argument?
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:453: Paragraph ended before \pgfkeys@addpath was complete.
+<to be read again> 
+                   \par 
+l.453 ...icture}[auto, node distance=2cm, >=latex]
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:453: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.453 ...icture}[auto, node distance=2cm, >=latex]
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:453: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.453 ...icture}[auto, node distance=2cm, >=latex]
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+Runaway argument?
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:453: Paragraph ended before \pgfkeys@splitter was complete.
+<to be read again> 
+                   \par 
+l.453 ...icture}[auto, node distance=2cm, >=latex]
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Missing character: There is no / in font nullfont!
+Missing character: There is no / in font nullfont!
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:461: Argument of \language@active@arg> has an extra }.
+<inserted text> 
+                \par 
+l.461 	\draw [->]
+                  (input) -- node {$E_i(s)$} (sum);
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:461: Paragraph ended before \language@active@arg> was complete.
+<to be read again> 
+                   \par 
+l.461 	\draw [->]
+                  (input) -- node {$E_i(s)$} (sum);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Runaway argument?
+-
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:461: Paragraph ended before \pgfkeys@addpath was complete.
+<to be read again> 
+                   \par 
+l.461 	\draw [->]
+                  (input) -- node {$E_i(s)$} (sum);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:461: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.461 	\draw [->]
+                  (input) -- node {$E_i(s)$} (sum);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:461: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.461 	\draw [->]
+                  (input) -- node {$E_i(s)$} (sum);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:461: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.461 	\draw [->]
+                  (input) -- node {$E_i(s)$} (sum);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+Runaway argument?
+-
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:461: Paragraph ended before \pgfkeys@splitter was complete.
+<to be read again> 
+                   \par 
+l.461 	\draw [->]
+                  (input) -- node {$E_i(s)$} (sum);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Missing character: There is no / in font nullfont!
+Missing character: There is no / in font nullfont!
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:462: Argument of \language@active@arg> has an extra }.
+<inserted text> 
+                \par 
+l.462 	\draw [->]
+                  (sum) -- (controller);
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:462: Paragraph ended before \language@active@arg> was complete.
+<to be read again> 
+                   \par 
+l.462 	\draw [->]
+                  (sum) -- (controller);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Runaway argument?
+-
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:462: Paragraph ended before \pgfkeys@addpath was complete.
+<to be read again> 
+                   \par 
+l.462 	\draw [->]
+                  (sum) -- (controller);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:462: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.462 	\draw [->]
+                  (sum) -- (controller);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:462: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.462 	\draw [->]
+                  (sum) -- (controller);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:462: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.462 	\draw [->]
+                  (sum) -- (controller);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+Runaway argument?
+-
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:462: Paragraph ended before \pgfkeys@splitter was complete.
+<to be read again> 
+                   \par 
+l.462 	\draw [->]
+                  (sum) -- (controller);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Missing character: There is no / in font nullfont!
+Missing character: There is no / in font nullfont!
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:463: Argument of \language@active@arg> has an extra }.
+<inserted text> 
+                \par 
+l.463 	\draw [->]
+                  (controller) -- (system);
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:463: Paragraph ended before \language@active@arg> was complete.
+<to be read again> 
+                   \par 
+l.463 	\draw [->]
+                  (controller) -- (system);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Runaway argument?
+-
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:463: Paragraph ended before \pgfkeys@addpath was complete.
+<to be read again> 
+                   \par 
+l.463 	\draw [->]
+                  (controller) -- (system);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:463: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.463 	\draw [->]
+                  (controller) -- (system);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:463: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.463 	\draw [->]
+                  (controller) -- (system);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:463: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.463 	\draw [->]
+                  (controller) -- (system);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+Runaway argument?
+-
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:463: Paragraph ended before \pgfkeys@splitter was complete.
+<to be read again> 
+                   \par 
+l.463 	\draw [->]
+                  (controller) -- (system);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Missing character: There is no / in font nullfont!
+Missing character: There is no / in font nullfont!
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:464: Argument of \language@active@arg> has an extra }.
+<inserted text> 
+                \par 
+l.464 	\draw [->]
+                  (system) -- (output);
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:464: Paragraph ended before \language@active@arg> was complete.
+<to be read again> 
+                   \par 
+l.464 	\draw [->]
+                  (system) -- (output);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Runaway argument?
+-
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:464: Paragraph ended before \pgfkeys@addpath was complete.
+<to be read again> 
+                   \par 
+l.464 	\draw [->]
+                  (system) -- (output);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:464: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.464 	\draw [->]
+                  (system) -- (output);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:464: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.464 	\draw [->]
+                  (system) -- (output);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:464: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.464 	\draw [->]
+                  (system) -- (output);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+Runaway argument?
+-
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:464: Paragraph ended before \pgfkeys@splitter was complete.
+<to be read again> 
+                   \par 
+l.464 	\draw [->]
+                  (system) -- (output);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Missing character: There is no / in font nullfont!
+Missing character: There is no / in font nullfont!
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:465: Argument of \language@active@arg> has an extra }.
+<inserted text> 
+                \par 
+l.465 	\draw [->]
+                  (output) |- (measurements);
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:465: Paragraph ended before \language@active@arg> was complete.
+<to be read again> 
+                   \par 
+l.465 	\draw [->]
+                  (output) |- (measurements);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Runaway argument?
+-
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:465: Paragraph ended before \pgfkeys@addpath was complete.
+<to be read again> 
+                   \par 
+l.465 	\draw [->]
+                  (output) |- (measurements);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:465: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.465 	\draw [->]
+                  (output) |- (measurements);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:465: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.465 	\draw [->]
+                  (output) |- (measurements);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:465: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.465 	\draw [->]
+                  (output) |- (measurements);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+Runaway argument?
+-
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:465: Paragraph ended before \pgfkeys@splitter was complete.
+<to be read again> 
+                   \par 
+l.465 	\draw [->]
+                  (output) |- (measurements);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Missing character: There is no / in font nullfont!
+Missing character: There is no / in font nullfont!
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:466: Argument of \language@active@arg> has an extra }.
+<inserted text> 
+                \par 
+l.466 	\draw [->]
+                  (measurements) -| node[pos=0.99] {$+$} (sum);
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:466: Paragraph ended before \language@active@arg> was complete.
+<to be read again> 
+                   \par 
+l.466 	\draw [->]
+                  (measurements) -| node[pos=0.99] {$+$} (sum);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Runaway argument?
+-
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:466: Paragraph ended before \pgfkeys@addpath was complete.
+<to be read again> 
+                   \par 
+l.466 	\draw [->]
+                  (measurements) -| node[pos=0.99] {$+$} (sum);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:466: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.466 	\draw [->]
+                  (measurements) -| node[pos=0.99] {$+$} (sum);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:466: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.466 	\draw [->]
+                  (measurements) -| node[pos=0.99] {$+$} (sum);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:466: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.466 	\draw [->]
+                  (measurements) -| node[pos=0.99] {$+$} (sum);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+Runaway argument?
+-
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:466: Paragraph ended before \pgfkeys@splitter was complete.
+<to be read again> 
+                   \par 
+l.466 	\draw [->]
+                  (measurements) -| node[pos=0.99] {$+$} (sum);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Missing character: There is no / in font nullfont!
+Missing character: There is no / in font nullfont!
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:471: Argument of \language@active@arg> has an extra }.
+<inserted text> 
+                \par 
+l.471 	\draw [->]
+                  (output) -- (newblock);
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:471: Paragraph ended before \language@active@arg> was complete.
+<to be read again> 
+                   \par 
+l.471 	\draw [->]
+                  (output) -- (newblock);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Runaway argument?
+-
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:471: Paragraph ended before \pgfkeys@addpath was complete.
+<to be read again> 
+                   \par 
+l.471 	\draw [->]
+                  (output) -- (newblock);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:471: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.471 	\draw [->]
+                  (output) -- (newblock);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:471: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.471 	\draw [->]
+                  (output) -- (newblock);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:471: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.471 	\draw [->]
+                  (output) -- (newblock);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+Runaway argument?
+-
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:471: Paragraph ended before \pgfkeys@splitter was complete.
+<to be read again> 
+                   \par 
+l.471 	\draw [->]
+                  (output) -- (newblock);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Missing character: There is no / in font nullfont!
+Missing character: There is no / in font nullfont!
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:472: Argument of \language@active@arg> has an extra }.
+<inserted text> 
+                \par 
+l.472 	\draw [->]
+                  (newblock) -- node {$E_o(s)$} (outputEo);
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:472: Paragraph ended before \language@active@arg> was complete.
+<to be read again> 
+                   \par 
+l.472 	\draw [->]
+                  (newblock) -- node {$E_o(s)$} (outputEo);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Runaway argument?
+-
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:472: Paragraph ended before \pgfkeys@addpath was complete.
+<to be read again> 
+                   \par 
+l.472 	\draw [->]
+                  (newblock) -- node {$E_o(s)$} (outputEo);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:472: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.472 	\draw [->]
+                  (newblock) -- node {$E_o(s)$} (outputEo);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:472: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.472 	\draw [->]
+                  (newblock) -- node {$E_o(s)$} (outputEo);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:472: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.472 	\draw [->]
+                  (newblock) -- node {$E_o(s)$} (outputEo);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+Runaway argument?
+-
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:472: Paragraph ended before \pgfkeys@splitter was complete.
+<to be read again> 
+                   \par 
+l.472 	\draw [->]
+                  (newblock) -- node {$E_o(s)$} (outputEo);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Missing character: There is no / in font nullfont!
+Missing character: There is no / in font nullfont!
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:478: Argument of \language@active@arg> has an extra }.
+<inserted text> 
+                \par 
+l.478 ...cture}[auto, node distance=5cm, >=latex']
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:478: Paragraph ended before \language@active@arg> was complete.
+<to be read again> 
+                   \par 
+l.478 ...cture}[auto, node distance=5cm, >=latex']
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Runaway argument?
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:478: Paragraph ended before \pgfkeys@addpath was complete.
+<to be read again> 
+                   \par 
+l.478 ...cture}[auto, node distance=5cm, >=latex']
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:478: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.478 ...cture}[auto, node distance=5cm, >=latex']
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:478: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.478 ...cture}[auto, node distance=5cm, >=latex']
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+Runaway argument?
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:478: Paragraph ended before \pgfkeys@splitter was complete.
+<to be read again> 
+                   \par 
+l.478 ...cture}[auto, node distance=5cm, >=latex']
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Missing character: There is no / in font nullfont!
+Missing character: There is no / in font nullfont!
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:487: Argument of \language@active@arg> has an extra }.
+<inserted text> 
+                \par 
+l.487     \draw [->]
+                     (input) -- node {$E_i(s)$} (formula);
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:487: Paragraph ended before \language@active@arg> was complete.
+<to be read again> 
+                   \par 
+l.487     \draw [->]
+                     (input) -- node {$E_i(s)$} (formula);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Runaway argument?
+-
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:487: Paragraph ended before \pgfkeys@addpath was complete.
+<to be read again> 
+                   \par 
+l.487     \draw [->]
+                     (input) -- node {$E_i(s)$} (formula);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:487: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.487     \draw [->]
+                     (input) -- node {$E_i(s)$} (formula);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:487: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.487     \draw [->]
+                     (input) -- node {$E_i(s)$} (formula);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:487: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.487     \draw [->]
+                     (input) -- node {$E_i(s)$} (formula);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+Runaway argument?
+-
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:487: Paragraph ended before \pgfkeys@splitter was complete.
+<to be read again> 
+                   \par 
+l.487     \draw [->]
+                     (input) -- node {$E_i(s)$} (formula);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Missing character: There is no / in font nullfont!
+Missing character: There is no / in font nullfont!
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:488: Argument of \language@active@arg> has an extra }.
+<inserted text> 
+                \par 
+l.488     \draw [->]
+                     (formula) -- (inverse);
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:488: Paragraph ended before \language@active@arg> was complete.
+<to be read again> 
+                   \par 
+l.488     \draw [->]
+                     (formula) -- (inverse);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Runaway argument?
+-
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:488: Paragraph ended before \pgfkeys@addpath was complete.
+<to be read again> 
+                   \par 
+l.488     \draw [->]
+                     (formula) -- (inverse);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:488: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.488     \draw [->]
+                     (formula) -- (inverse);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:488: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.488     \draw [->]
+                     (formula) -- (inverse);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:488: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.488     \draw [->]
+                     (formula) -- (inverse);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+Runaway argument?
+-
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:488: Paragraph ended before \pgfkeys@splitter was complete.
+<to be read again> 
+                   \par 
+l.488     \draw [->]
+                     (formula) -- (inverse);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Missing character: There is no / in font nullfont!
+Missing character: There is no / in font nullfont!
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:489: Argument of \language@active@arg> has an extra }.
+<inserted text> 
+                \par 
+l.489     \draw [->]
+                     (inverse) -- node {$E_0(s)$} (output);
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:489: Paragraph ended before \language@active@arg> was complete.
+<to be read again> 
+                   \par 
+l.489     \draw [->]
+                     (inverse) -- node {$E_0(s)$} (output);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Runaway argument?
+-
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:489: Paragraph ended before \pgfkeys@addpath was complete.
+<to be read again> 
+                   \par 
+l.489     \draw [->]
+                     (inverse) -- node {$E_0(s)$} (output);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:489: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.489     \draw [->]
+                     (inverse) -- node {$E_0(s)$} (output);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:489: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.489     \draw [->]
+                     (inverse) -- node {$E_0(s)$} (output);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:489: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.489     \draw [->]
+                     (inverse) -- node {$E_0(s)$} (output);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+Runaway argument?
+-
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:489: Paragraph ended before \pgfkeys@splitter was complete.
+<to be read again> 
+                   \par 
+l.489     \draw [->]
+                     (inverse) -- node {$E_0(s)$} (output);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Missing character: There is no / in font nullfont!
+Missing character: There is no / in font nullfont!
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:495: Argument of \language@active@arg> has an extra }.
+<inserted text> 
+                \par 
+l.495 ...cture}[auto, node distance=4cm, >=latex']
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:495: Paragraph ended before \language@active@arg> was complete.
+<to be read again> 
+                   \par 
+l.495 ...cture}[auto, node distance=4cm, >=latex']
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Runaway argument?
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:495: Paragraph ended before \pgfkeys@addpath was complete.
+<to be read again> 
+                   \par 
+l.495 ...cture}[auto, node distance=4cm, >=latex']
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:495: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.495 ...cture}[auto, node distance=4cm, >=latex']
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:495: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.495 ...cture}[auto, node distance=4cm, >=latex']
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+Runaway argument?
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:495: Paragraph ended before \pgfkeys@splitter was complete.
+<to be read again> 
+                   \par 
+l.495 ...cture}[auto, node distance=4cm, >=latex']
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Missing character: There is no / in font nullfont!
+Missing character: There is no / in font nullfont!
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:502: Argument of \language@active@arg> has an extra }.
+<inserted text> 
+                \par 
+l.502     \draw [->]
+                     (input) -- node {$E_i(s)$} (formula);
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:502: Paragraph ended before \language@active@arg> was complete.
+<to be read again> 
+                   \par 
+l.502     \draw [->]
+                     (input) -- node {$E_i(s)$} (formula);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Runaway argument?
+-
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:502: Paragraph ended before \pgfkeys@addpath was complete.
+<to be read again> 
+                   \par 
+l.502     \draw [->]
+                     (input) -- node {$E_i(s)$} (formula);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:502: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.502     \draw [->]
+                     (input) -- node {$E_i(s)$} (formula);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:502: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.502     \draw [->]
+                     (input) -- node {$E_i(s)$} (formula);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:502: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.502     \draw [->]
+                     (input) -- node {$E_i(s)$} (formula);
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+Runaway argument?
+-
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:502: Paragraph ended before \pgfkeys@splitter was complete.
+<to be read again> 
+                   \par 
+l.502     \draw [->]
+                     (input) -- node {$E_i(s)$} (formula);
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Missing character: There is no / in font nullfont!
+Missing character: There is no / in font nullfont!
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:503: Argument of \language@active@arg> has an extra }.
+<inserted text> 
+                \par 
+l.503     \draw [->]
+                     (formula.east) -- ++(1,0) node[right] {$E_0(s)$};
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:503: Paragraph ended before \language@active@arg> was complete.
+<to be read again> 
+                   \par 
+l.503     \draw [->]
+                     (formula.east) -- ++(1,0) node[right] {$E_0(s)$};
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Runaway argument?
+-
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:503: Paragraph ended before \pgfkeys@addpath was complete.
+<to be read again> 
+                   \par 
+l.503     \draw [->]
+                     (formula.east) -- ++(1,0) node[right] {$E_0(s)$};
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:503: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.503     \draw [->]
+                     (formula.east) -- ++(1,0) node[right] {$E_0(s)$};
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:503: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.503     \draw [->]
+                     (formula.east) -- ++(1,0) node[right] {$E_0(s)$};
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:503: Missing \endcsname inserted.
+<to be read again> 
+                   \scan_stop: 
+l.503     \draw [->]
+                     (formula.east) -- ++(1,0) node[right] {$E_0(s)$};
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+Runaway argument?
+-
+c:/Users/Matzi/OneDrive - alumnos.uv.cl/Documentos/Codigos/Control automatico/Control-automatico/Latex/Tarea 1 control.tex:503: Paragraph ended before \pgfkeys@splitter was complete.
+<to be read again> 
+                   \par 
+l.503     \draw [->]
+                     (formula.east) -- ++(1,0) node[right] {$E_0(s)$};
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Missing character: There is no / in font nullfont!
+Missing character: There is no / in font nullfont!
+<./figures/Figura 3 ejercicio 5.png, id=104, 496.85625pt x 372.64218pt>
+File: ./figures/Figura 3 ejercicio 5.png Graphic file (type png)
+<use ./figures/Figura 3 ejercicio 5.png>
+Package pdftex.def Info: ./figures/Figura 3 ejercicio 5.png  used on input line 517.
+(pdftex.def)             Requested size: 377.62642pt x 283.22237pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[6]
+
+[7 <./figures/Figura 3 ejercicio 5.png>]
+<./figures/Figura 4 ejercicio 5.png, id=120, 462.528pt x 346.896pt>
 File: ./figures/Figura 4 ejercicio 5.png Graphic file (type png)
 <use ./figures/Figura 4 ejercicio 5.png>
-Package pdftex.def Info: ./figures/Figura 4 ejercicio 5.png  used on input line 473.
+Package pdftex.def Info: ./figures/Figura 4 ejercicio 5.png  used on input line 581.
 (pdftex.def)             Requested size: 330.42041pt x 247.8276pt.
 
 
-[7 <./figures/Figura 4 ejercicio 5.png>]
-<./figures/Figura 5 ejercicio 5.png, id=137, 462.528pt x 346.896pt>
+[8 <./figures/Figura 4 ejercicio 5.png>]
+<./figures/Figura 5 ejercicio 5.png, id=148, 462.528pt x 346.896pt>
 File: ./figures/Figura 5 ejercicio 5.png Graphic file (type png)
 <use ./figures/Figura 5 ejercicio 5.png>
-Package pdftex.def Info: ./figures/Figura 5 ejercicio 5.png  used on input line 557.
+Package pdftex.def Info: ./figures/Figura 5 ejercicio 5.png  used on input line 665.
 (pdftex.def)             Requested size: 330.42041pt x 247.8276pt.
 
 
@@ -594,36 +1883,36 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[8]
+[9]
 
-[9 <./figures/Figura 5 ejercicio 5.png>]
-<./figures/Figura 6 ejercicio 5.png, id=175, 462.528pt x 346.896pt>
+[10 <./figures/Figura 5 ejercicio 5.png>]
+<./figures/Figura 6 ejercicio 5.png, id=185, 462.528pt x 346.896pt>
 File: ./figures/Figura 6 ejercicio 5.png Graphic file (type png)
 <use ./figures/Figura 6 ejercicio 5.png>
-Package pdftex.def Info: ./figures/Figura 6 ejercicio 5.png  used on input line 633.
+Package pdftex.def Info: ./figures/Figura 6 ejercicio 5.png  used on input line 741.
 (pdftex.def)             Requested size: 330.42041pt x 247.8276pt.
 
 
-[10 <./figures/Figura 6 ejercicio 5.png>]
-<./figures/Figura 7 ejercicio 6.png, id=211, 430.60875pt x 161.85469pt>
+[11 <./figures/Figura 6 ejercicio 5.png>]
+<./figures/Figura 7 ejercicio 6.png, id=221, 430.60875pt x 161.85469pt>
 File: ./figures/Figura 7 ejercicio 6.png Graphic file (type png)
 <use ./figures/Figura 7 ejercicio 6.png>
-Package pdftex.def Info: ./figures/Figura 7 ejercicio 6.png  used on input line 646.
+Package pdftex.def Info: ./figures/Figura 7 ejercicio 6.png  used on input line 754.
 (pdftex.def)             Requested size: 377.62642pt x 141.94354pt.
 
 
-[11 <./figures/Figura 7 ejercicio 6.png>]
+[12 <./figures/Figura 7 ejercicio 6.png>]
 
-[12]
-<./figures/Figura 8 ejercicio 6.png, id=257, 462.528pt x 346.896pt>
+[13]
+<./figures/Figura 8 ejercicio 6.png, id=267, 462.528pt x 346.896pt>
 File: ./figures/Figura 8 ejercicio 6.png Graphic file (type png)
 <use ./figures/Figura 8 ejercicio 6.png>
-Package pdftex.def Info: ./figures/Figura 8 ejercicio 6.png  used on input line 766.
+Package pdftex.def Info: ./figures/Figura 8 ejercicio 6.png  used on input line 874.
 (pdftex.def)             Requested size: 330.42041pt x 247.8276pt.
-<./figures/Figura 9 ejercicio 7.png, id=258, 602.25pt x 509.65407pt>
+<./figures/Figura 9 ejercicio 7.png, id=268, 602.25pt x 509.65407pt>
 File: ./figures/Figura 9 ejercicio 7.png Graphic file (type png)
 <use ./figures/Figura 9 ejercicio 7.png>
-Package pdftex.def Info: ./figures/Figura 9 ejercicio 7.png  used on input line 782.
+Package pdftex.def Info: ./figures/Figura 9 ejercicio 7.png  used on input line 890.
 (pdftex.def)             Requested size: 377.62642pt x 319.57507pt.
 
 
@@ -631,13 +1920,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[13 <./figures/Figura 8 ejercicio 6.png>]
+[14 <./figures/Figura 8 ejercicio 6.png>]
 
-[14 <./figures/Figura 9 ejercicio 7.png>]
-<./figures/Figura 10 ejercicio 7.png, id=293, 859.2903pt x 570.933pt>
+[15 <./figures/Figura 9 ejercicio 7.png>]
+<./figures/Figura 10 ejercicio 7.png, id=303, 859.2903pt x 570.933pt>
 File: ./figures/Figura 10 ejercicio 7.png Graphic file (type png)
 <use ./figures/Figura 10 ejercicio 7.png>
-Package pdftex.def Info: ./figures/Figura 10 ejercicio 7.png  used on input line 865.
+Package pdftex.def Info: ./figures/Figura 10 ejercicio 7.png  used on input line 973.
 (pdftex.def)             Requested size: 472.03123pt x 313.6308pt.
 
 
@@ -645,11 +1934,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[15]
+[16]
 
-[16 <./figures/Figura 10 ejercicio 7.png>]
+[17 <./figures/Figura 10 ejercicio 7.png>]
 
-[17] (Tarea 1 control.aux
+[18] (Tarea 1 control.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 )
@@ -659,17 +1948,17 @@ L3 programming layer <2024-08-30>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 15979 strings out of 473899
- 252121 string characters out of 5726500
- 1054076 words of memory out of 5000000
- 38408 multiletter control sequences out of 15000+600000
+ 26580 strings out of 473899
+ 483173 string characters out of 5726500
+ 1252366 words of memory out of 5000000
+ 48792 multiletter control sequences out of 15000+600000
  569698 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,14n,93p,6448b,2150s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,14n,93p,6448b,2151s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Matzi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmitt10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Matzi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on "Tarea 1 control.pdf" (18 pages, 741826 bytes).
+Output written on "Tarea 1 control.pdf" (19 pages, 750412 bytes).
 PDF statistics:
- 572 PDF objects out of 1000 (max. 8388607)
- 256 named destinations out of 1000 (max. 500000)
- 272 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 584 PDF objects out of 1000 (max. 8388607)
+ 260 named destinations out of 1000 (max. 500000)
+ 284 words of extra memory for PDF output out of 10000 (max. 10000000)
 
