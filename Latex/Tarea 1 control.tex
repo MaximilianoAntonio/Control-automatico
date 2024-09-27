@@ -1,5 +1,7 @@
 \documentclass[10pt]{article}
 \usepackage{bookmark}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
 % Formato extenso: report
 
 % Formato corto: article
@@ -31,14 +33,7 @@
 
 % para agregar opciones al enumerate
 \usepackage{enumerate}
-\usepackage{tikz}
-\usetikzlibrary{positioning}  % Carga las librerías necesarias
 
-% Definir los estilos personalizados
-\tikzstyle{block} = [draw, rectangle, minimum height=3em, minimum width=6em]
-\tikzstyle{input} = [coordinate]
-\tikzstyle{output} = [coordinate]
-\tikzstyle{sum} = [draw, circle, node distance=1cm]
 
 % Teoremas
 \newtheorem{thm}{Teorema}[section]
@@ -393,115 +388,153 @@ Esta es la función de transferencia del sistema, que describe la relación entr
 	\caption{Diagrama de bloques del sistema}
 \end{figure}
 
-\section{Problema 4: Obtenga la Función de Transferencia \texorpdfstring{$E_o(s)/E_i(s)$}{Eo(s)/Ei(s)} del circuito eléctrico RLC que se muestra en la Figura 2}
+\section{Problema 4: Obtenga la Función de Transferencia Eo(s)/Ei(s) del circuito eléctrico RLC que se muestra en
+  la Figura 2}
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{./figures/Figura 2 ejercicio 4.png}
 	\caption{Circuito eléctrico RLC}
 \end{figure}
+Primera malla
 
-\subsection*{Primera malla}
-
-\[
-	R_1 i_1(t) + L \frac{d}{dt} \left( i_1(t) - i_2(t) \right) = e_i(t)
+\[R_1 i_1(t) + L \frac{d}{dt} \left( i_1(t) - i_2(t) \right) = e_i(t)
 \]
 
-Aplicamos la transformada de Laplace:
-
 \[
-	R_1 I_1(s) + Ls \left( I_1(s) - I_2(s) \right) = E_i(s)
+\mathcal{L} \left[ R_1 i_1(t) + L \frac{d}{dt} \left( i_1(t) - i_2(t) \right) \right] = \mathcal{L} \left[ e_i(t) \right]
+
+\[R_1 I_1(s) + Ls \left[ I_1(s) - I_2(s) \right] = E_i(s)
 \]
 
-Despejamos $I_1(s)$:
+\[I_1(s) = \frac{E_i(s) + Ls I_2(s)}{R_1 + Ls}
+\]
+Segunda malla 
 
-\[
-	I_1(s) = \frac{E_i(s) + Ls I_2(s)}{R_1 + Ls}
+\[L \frac{d}{dt} \left[ i_2(t) - i_1(t) \right] + R_2 i_2(t) + \frac{1}{C} \int i_2(t) \, dt = 0
 \]
 
-\subsection*{Segunda malla}
-
-\[
-	L \frac{d}{dt} \left( i_2(t) - i_1(t) \right) + R_2 i_2(t) + \frac{1}{C} \int i_2(t) \, dt = 0
+\[Ls \left[ I_2(s) - I_1(s) \right] + R_2 I_2(s) + \frac{1}{Cs} I_2(s) Ls = 0
 \]
 
-Aplicamos la transformada de Laplace:
+\[I_2(s) = \frac{LCs^2}{(LCs^2 + R_2 Cs + 1)} I_1(s)
+\]
+Tercera malla 
 
-\[
-	Ls \left( I_2(s) - I_1(s) \right) + R_2 I_2(s) + \frac{1}{Cs} I_2(s) = 0
+\[\frac{1}{C} \int i_2(t) \, dt = e_0(t)
 \]
 
-Despejamos $I_2(s)$:
+\[\frac{1}{Cs} I_2(s) = E_0(s)
+\
 
-\[
-	I_2(s) = \frac{LCs^2}{(LCs^2 + R_2 Cs + 1)} I_1(s)
-\]
+\tikzstyle{block} = [draw, rectangle, minimum height=3em, minimum width=6em]
+\tikzstyle{sum} = [draw, circle, node distance=1cm]
+\tikzstyle{input} = [coordinate]
+\tikzstyle{output} = [coordinate]
+\tikzstyle{pinstyle} = [pin edge={to-,thin,black}]
 
-\subsection*{Tercera malla}
+\begin{tikzpicture}[auto, node distance=2cm,>=latex']
+    \node [input, name=input] {};
+    \node [sum, right of=input] (sum) {};
+    \node [block, right of=sum] (controller) {$\frac{1}{R_1 + Ls}$};
+    \node [block, right of=controller, node distance=3cm] (system) {$\frac{Ls^2}{(Ls^2) + R_2 Cs + 1}$};
+    
+    \draw [->] (controller) -- node[name=u] {$$} (system);
+    
+    \node [output, right of=system] (output) {};
+    \node [block, below of=u] (measurements) {$Ls$};
 
-\[
-	\frac{1}{C} \int i_2(t) \, dt = e_0(t)
-\]
+    \draw [->] (input) -- node {$E_{i}(s)$} (sum);
+    \draw [->] (sum) -- node {$$} (controller);
+    \draw [->] (system) -- node {$$} (output);
+    
+    \draw [->] (output) -- node [name=y] {$$} (output);
+    \draw [->] (y) |- (measurements);
+    \draw [->] (measurements) -| node[pos=0.99] {$+$} 
+        node [near end] {$$} (sum);
+    
+    % Conectar el bloque de mediciones a i2
+    \draw [->] (measurements.east) -- ++(0.75,0) node[midway, above] {$i_2$};
 
-En el dominio de Laplace:
+    % Nuevo cuadro cambiado a 1/Cs
+    \node [block, right of=output, node distance=3cm] (newblock) {$\frac{1}{C_s}$};
 
-\[
-	\frac{1}{Cs} I_2(s) = E_0(s)
-\]
+    % Conectar la salida con el nuevo cuadro
+    \draw [->] (output) -- node {$$} (newblock);
 
-% Primer bloque
-\begin{tikzpicture}[auto, node distance=2cm, >=latex]
-	\node [input, name=input] {};
-	\node [sum, right of=input] (sum) {};
-	\node [block, right of=sum] (controller) {$\displaystyle \frac{1}{R_1 + Ls}$};
-	\node [block, right of=controller, node distance=3cm] (system) {$\displaystyle \frac{Ls^2}{LCs^2 + R_2Cs + 1}$};
-	\node [output, right of=system] (output) {};
-	\node [block, below of=system, node distance=1.5cm] (measurements) {$\displaystyle Ls$};
+    % Añadir salida Eo(s)
+    \node [output, right of=newblock, node distance=2cm] (outputEo) {};
+    \draw [->] (newblock) -- node {$E_o(s)$} (outputEo);
+    
+    % Etiqueta i2 movida 2 unidades a la izquierda del bloque 1/Cs
+    \node [above] at (8,0) {$i_2$}; % Ajustado aquí
+    \node [above] at (4.4,0) {$i_1$}; % Ajustado aquí
 
-	\draw [->] (input) -- node {$E_i(s)$} (sum);
-	\draw [->] (sum) -- (controller);
-	\draw [->] (controller) -- (system);
-	\draw [->] (system) -- (output);
-	\draw [->] (output) |- (measurements);
-	\draw [->] (measurements) -| node[pos=0.99] {$+$} (sum);
-
-	\node [block, right of=output, node distance=3cm] (newblock) {$\displaystyle \frac{1}{Cs}$};
-	\node [output, right of=newblock, node distance=2cm] (outputEo) {};
-
-	\draw [->] (output) -- (newblock);
-	\draw [->] (newblock) -- node {$E_o(s)$} (outputEo);
 \end{tikzpicture}
 
-\vspace{1cm}
+\begin{tikzpicture}[auto, node distance=5cm,>=latex']  % Aumentar la distancia entre nodos
+    % Estilos personalizados
+    \tikzstyle{block} = [draw, rectangle, minimum height=3em, align=center]  % Alineación centrada
+    \tikzstyle{input} = [coordinate]
+    \tikzstyle{output} = [coordinate]
 
-% Segundo bloque
-\begin{tikzpicture}[auto, node distance=5cm, >=latex']
+    % Nodos de entrada y bloques
     \node [input, name=input] {};
+    
     \node [block, right of=input, minimum width=5cm] (formula) {
-        \centering
-        $\displaystyle \frac{LCs^2}{(LCs^2 + R_2Cs + 1)(R_1 + Ls) - L^2Cs^3}$
+        \begin{minipage}{5cm}
+            \centering
+            $\frac{LCs^2}{(LCs^2 + R_2Cs + 1)(R_1 + Ls) - L^2Cs^3}$
+        \end{minipage}
     };
-    \node [block, right of=formula, minimum width=3cm] (inverse) {$\displaystyle \frac{1}{Cs}$};
+
+    \node [block, right of=formula, minimum width=3cm] (inverse) {$\frac{1}{Cs}$};
     \node [output, right of=inverse] (output) {};
 
+    % Conexiones
     \draw [->] (input) -- node {$E_i(s)$} (formula);
     \draw [->] (formula) -- (inverse);
     \draw [->] (inverse) -- node {$E_0(s)$} (output);
+
+    % Añadir etiquetas para mayor claridad
+    \node [above of=formula] {};
+    \node [above of=inverse] {};
+
 \end{tikzpicture}
 
-\vspace{1cm}
+\begin{tikzpicture}[auto, node distance=4cm,>=latex']  % Aumentar la distancia entre nodos
+    % Estilos personalizados
+    \tikzstyle{block} = [draw, rectangle, minimum height=3em, align=center]  % Alineación centrada
+    \tikzstyle{input} = [coordinate]
 
-% Tercer bloque
-\begin{tikzpicture}[auto, node distance=4cm, >=latex']
+    % Nodos de entrada y bloques
     \node [input, name=input] {};
+    
     \node [block, right of=input, minimum width=5cm] (formula) {
-        \centering
-        $\displaystyle \frac{Ls}{(R_1LC + R_2LC)s^2 + (R_1R_2C + L)s + R_1}$
+        \begin{minipage}{5cm}
+            \centering
+            $\frac{Ls}{((R_1LC + R_2LC)s^2 + (R_1R_2C + L)s + R_1)}$
+        \end{minipage}
     };
 
+    % Conexiones
     \draw [->] (input) -- node {$E_i(s)$} (formula);
-    \draw [->] (formula.east) -- ++(1,0) node[right] {$E_0(s)$};
+    \draw [->] (formula.east) -- ++(1,0) node[right] {$E_0(s)$};  % Conectar directamente a la salida
+
+    % Añadir etiquetas para mayor claridad
+    \node [above of=formula] {};
+
 \end{tikzpicture}
+
+
+
+
+
+
+
+
+
+
 
 
 \section{Problema 5: Considere el sistema de la Figura 3(a). El factor de amortiguamiento relativo \texorpdfstring{$\zeta$}{}
@@ -759,7 +792,7 @@ Este código genera la respuesta al escalón unitario tanto para el sistema orig
 La función de transferencia del sistema en la Figura 7 es:
 
 \[
-	G(s) = \frac{16}{s^2 + (0.8 + 16k)s + 16}
+G(s) = \frac{16}{s^2 + (0.8 + 16k)s + 16}
 \]
 
 \subsection{Determinación del valor de \texorpdfstring{\(k\)}{k}}
@@ -804,7 +837,7 @@ Sustituyendo \(\zeta = 0.5\) y \(\omega_n = 4\):
 Frecuencia natural amortiguada \(\omega_d\):
 
 \[
-	\omega_d = \omega_n \sqrt{1 - \zeta^2} = 4 \sqrt{1 - (0.5)^2} = 4 \sqrt{0.75} = 4 \times 0.866 = 3.464
+\omega_d = \omega_n \sqrt{1 - \zeta^2} = 4 \sqrt{1 - (0.5)^2} = 4 \sqrt{0.75} = 4 \times 0.866 = 3.464
 \]
 
 El tiempo de levantamiento es el tiempo que tarda la salida en pasar del 10\% al 90\% del valor final. Para un sistema subamortiguado con \(\zeta = 0.5\), una aproximación es:
@@ -897,15 +930,15 @@ Este código genera la respuesta al escalón unitario y te permite analizar visu
 
 \begin{equation}
 	\text{a) } \frac{5}{s(5s+1)} = \frac{\frac{5}{s(5s+1)}}{1 + \frac{s}{s(5s+1)}} = \frac{5}{s(5s+1) + s}
-\end{equation}
-
-\begin{equation}
+  \end{equation}
+  
+  \begin{equation}
 	\text{b) } \frac{5(1+0.8s)}{s(5s+1)} = \frac{\frac{5(1+0.8s)}{s(5s+1)}}{1 + \frac{5(1+0.8s)}{s(5s+1)}} = \frac{5(1+0.8s)}{s(5s+1) + 5(1+0.8s)}
-\end{equation}
-
-\begin{equation}
+  \end{equation}
+  
+  \begin{equation}
 	\text{c) } \frac{5}{5s+1} = \frac{\frac{5}{5s+1}}{1 + \frac{4}{5s+1}} = \frac{1}{s+1} = \frac{\frac{1}{s+1}}{1 + \frac{1}{s^2+s}} = \frac{1}{s^2 + s + 1}
-\end{equation}
+  \end{equation}
 
 
 Implementación computacional en Python
@@ -985,21 +1018,21 @@ A partir de los gráficos de las respuestas al \textbf{escalón unitario} y al \
 
 
 \begin{itemize}
-	\item \textbf{Sistema I (azul)}:
-	      \begin{itemize}
-		      \item Tiene el \textbf{mayor sobrepaso} y un comportamiento oscilatorio prolongado, lo que indica una baja amortiguación y una respuesta menos controlada.
-		      \item Su \textbf{velocidad de respuesta} es menor que la de los otros dos sistemas, ya que tarda más en estabilizarse.
-	      \end{itemize}
-	\item \textbf{Sistema II (naranja)}:
-	      \begin{itemize}
-		      \item Presenta un \textbf{sobrepaso menor} que el Sistema I y una mejor estabilidad.
-		      \item Su \textbf{velocidad de respuesta} es más rápida que la del Sistema I, estabilizándose con menos oscilaciones.
-	      \end{itemize}
-	\item \textbf{Sistema III (verde)}:
-	      \begin{itemize}
-		      \item Este sistema tiene \textbf{prácticamente nulo sobrepaso} y se estabiliza rápidamente sin oscilaciones significativas.
-		      \item Es el \textbf{más estable} de los tres sistemas, pero su \textbf{velocidad de respuesta} es ligeramente más lenta que la del Sistema II debido a su fuerte amortiguación.
-	      \end{itemize}
+    \item \textbf{Sistema I (azul)}: 
+    \begin{itemize}
+        \item Tiene el \textbf{mayor sobrepaso} y un comportamiento oscilatorio prolongado, lo que indica una baja amortiguación y una respuesta menos controlada.
+        \item Su \textbf{velocidad de respuesta} es menor que la de los otros dos sistemas, ya que tarda más en estabilizarse.
+    \end{itemize}
+    \item \textbf{Sistema II (naranja)}: 
+    \begin{itemize}
+        \item Presenta un \textbf{sobrepaso menor} que el Sistema I y una mejor estabilidad.
+        \item Su \textbf{velocidad de respuesta} es más rápida que la del Sistema I, estabilizándose con menos oscilaciones.
+    \end{itemize}
+    \item \textbf{Sistema III (verde)}: 
+    \begin{itemize}
+        \item Este sistema tiene \textbf{prácticamente nulo sobrepaso} y se estabiliza rápidamente sin oscilaciones significativas.
+        \item Es el \textbf{más estable} de los tres sistemas, pero su \textbf{velocidad de respuesta} es ligeramente más lenta que la del Sistema II debido a su fuerte amortiguación.
+    \end{itemize}
 \end{itemize}
 
 \subsection{Respuesta al impulso unitario}
@@ -1009,8 +1042,8 @@ Los patrones observados son similares a los de la respuesta al escalón. El \tex
 \subsection{Conclusión}
 
 \begin{itemize}
-	\item \textbf{Velocidad de respuesta}: El \textbf{Sistema II} parece tener la mejor velocidad de respuesta, ya que alcanza su estado estable más rápidamente que los demás con un control razonable del sobrepaso.
-	\item \textbf{Sobrepaso máximo}: El \textbf{Sistema III} es el que tiene el menor sobrepaso y es el más estable en ambas respuestas (escalón e impulso).
+    \item \textbf{Velocidad de respuesta}: El \textbf{Sistema II} parece tener la mejor velocidad de respuesta, ya que alcanza su estado estable más rápidamente que los demás con un control razonable del sobrepaso.
+    \item \textbf{Sobrepaso máximo}: El \textbf{Sistema III} es el que tiene el menor sobrepaso y es el más estable en ambas respuestas (escalón e impulso).
 \end{itemize}
 
 Por lo tanto, si se busca una respuesta más rápida, el \textbf{Sistema II} es el más adecuado. Sin embargo, si la prioridad es minimizar el sobrepaso y maximizar la estabilidad, el \textbf{Sistema III} es el más recomendable.
